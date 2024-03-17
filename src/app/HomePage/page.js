@@ -1,6 +1,6 @@
 'use client';
 import ContentCardComponent from "../components/card/ContentCard";
-import CoursePage from "../course/page";
+import CardCourseComponent from "../components/card/CardComponent";
 export default  function HomePage() {
   return (
 
