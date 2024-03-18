@@ -31,8 +31,7 @@ const content=[
     "image":"https://api.istad.co/media/image/b9bf96d7-c352-4533-8025-f017517ba648.png"
   },
 ]
-export default function CardCourseComponent(contents) {
-  const [liked, setLiked] = React.useState(false);
+export default function CardCourseComponent() {
   return (
     <section className="flex md:nowrap flex-wrap gap-4 " >
     <Card
